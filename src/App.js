@@ -1,12 +1,14 @@
 import './App.css'
-import R003_ImportComponent from './component/R003_ImportComponent'
+import R006_LifycycleEx from './component/R006_LifecycleEx';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>HTML 적용하기</p>
-      <R003_ImportComponent/>
+      <R006_LifycycleEx
+        prop_value='FromApp.js'
+      />
     </div>
   );
 }
