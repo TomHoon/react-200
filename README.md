@@ -46,6 +46,7 @@
 
 <hr/>
 
-
+### setTimeout(function(){ console.log(this) }, 200) 인 경우
+### setTimeout은 window 객체의 함수이기 때문에 this는 window를 가리킨다. 
 
 <hr/>
